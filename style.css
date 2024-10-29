@@ -1,0 +1,125 @@
+  *{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+  body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: black ;
+  }
+
+  nav{
+    width: 100%;
+    height: 10vh;
+    position: sticky;
+  }
+
+  .nav-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .name{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .links ul{
+    display: flex;
+    gap: 40px;
+  }
+
+  .links ul a{
+    position: relative;
+    font-size:1.2rem ;
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: 550;
+    transition: 0.3s linear;
+    font-size: 23px;
+
+  }
+
+  .links ul a::before{
+    position: absolute;
+    content: '';
+    bottom: -3px;
+    left: 0;
+    height: 3px;
+    width:0 ;
+    background-color: rgb(109, 175, 43);
+    transition: 0.3s linear;
+  }
+
+  .links ul a:hover::before{
+    width: 100%;
+  }
+
+  section{
+    width: 100%;
+    height: 90vh;
+  }
+
+ .main-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .img
+  {
+   
+    border-radius: 50%;
+   height: 350px;
+   width: 350px;
+
+  }
+  .content h1,p{
+    color: white;
+    width: 100%;
+    min-height:40px;
+    padding: 20px;
+  }
+  .content h2{
+    color: rgb(47, 88, 251);
+    font-size: 29px;
+    margin-left: 4vh;
+
+    
+  }
+  .content h1{
+    font-size: 38px;
+    margin-left: 7vh;
+  }
+  .content p{
+    font-size: 23px;
+  }
+  .content a{
+    font-weight: bold;
+   font-size: 20px;
+    display: inline-block;
+    margin: 40px 40px;
+    border-radius: 2px;
+    text-decoration: none;
+    background-color: white;
+    margin-left: 20vh;
+   
+}
+  
+
+
+
+
+
